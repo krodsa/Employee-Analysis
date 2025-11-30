@@ -1,6 +1,4 @@
-# Employee-Dataset
-
-Employee Attrition Analysis
+# Employee Attrition Analysis
 
 ### If GitHub fails to render the notebook, you can view the fully-rendered version here:  
 **https://nbviewer.org/github/krodsa/Employee-Analysis/blob/main/Employee%20Attrition%20Analysis.ipynb**
