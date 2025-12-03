@@ -3,6 +3,9 @@
 If GitHub fails to render the notebook, you can view the fully-rendered version here:  
 https://nbviewer.org/github/krodsa/Employee-Analysis/blob/main/Employee%20Attrition%20Analysis.ipynb
 
+Tableau dashboard can be viewed here: 
+https://public.tableau.com/app/profile/krodsa/viz/EmployeeAttritionDashboard_17344953568520/AttritionDashboard
+
 Overview
 
 This project analyzes employee attrition trends using a dataset containing various employee attributes, including demographic details, employment history, and job satisfaction metrics. The analysis aims to identify key drivers of attrition and forecast future attrition trends for strategic workforce planning.
