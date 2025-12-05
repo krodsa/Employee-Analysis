@@ -1,155 +1,121 @@
-# 📊 Employee Attrition Analysis
+# 📊 Employee Attrition Analysis  
+[![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
+[![Jupyter Notebook](https://img.shields.io/badge/Notebook-Jupyter-orange.svg)](https://jupyter.org/)
+[![Tableau](https://img.shields.io/badge/Visualization-Tableau-blue.svg)](https://public.tableau.com/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black.svg)](https://github.com/krodsa/Employee-Attrition-Analysis)
+[![Status](https://img.shields.io/badge/Status-Completed-brightgreen.svg)]()
 
 An end-to-end workforce analytics project combining Python-based statistical analysis, predictive modeling, and an interactive Tableau dashboard to uncover drivers of employee turnover and support strategic HR decision-making.
 
-## 📌 Background
+---
 
+## 📌 Background  
 Employee turnover poses a significant challenge for organizations, impacting productivity, team morale, and long-term financial performance. This project analyzes an anonymized employee dataset containing key workforce attributes, enabling the exploration of attrition patterns and the development of data-driven insights to support proactive workforce planning.
 
-## 🎯 Project Overview
+---
 
+## 🎯 Project Overview  
 This project conducts a comprehensive employee attrition analysis by examining demographic characteristics, employment history, compensation details, performance indicators, and job satisfaction metrics.
-Key objectives include:
 
-Uncovering key drivers of attrition
+### **Key Objectives**
+- Uncover key drivers of attrition  
+- Identify patterns across roles, departments, and demographics  
+- Explore predictive techniques to estimate attrition risk  
+- Present insights through an interactive dashboard for stakeholders  
 
-Identifying patterns across roles, departments, and demographics
+---
 
-Building predictive techniques to estimate attrition risk
+## 🧠 Executive Summary  
 
-Presenting insights through an interactive dashboard for stakeholders
+### 🔹 Key Drivers of Attrition
+- Job satisfaction and work environment indicators show strong correlation with turnover.  
+- Lower salary bands and shorter tenure increase attrition likelihood.  
+- Certain roles/departments display disproportionately higher attrition risks.  
 
-The project follows a full analytics lifecycle—from data preparation to modeling to visualization.
+### 🔹 Workforce Patterns
+- Mid-career employees show elevated turnover.  
+- Attrition clusters around roles with high workload-to-reward imbalance.  
+- Satisfaction and performance metrics provide predictive value.  
 
-## 🧠 Executive Summary
+### 🔹 Predictive Modeling
+A classification model was developed to estimate attrition probability.  
+Model insights highlight high-risk segments suitable for targeted retention strategies.
 
-The analysis reveals several meaningful insights:
+### 🔹 Recommended Actions
+- Prioritize interventions for high-turnover roles.  
+- Adjust compensation bands and career paths for lower-pay groups.  
+- Leverage modeling to identify rising-risk employees earlier.  
+- Improve satisfaction drivers (manager quality, advancement opportunities).  
 
-🔹 Key Drivers of Attrition
+---
 
-Job satisfaction and work environment indicators strongly correlate with turnover.
+## 🛠️ Methodology  
 
-Employees with lower salary ranges and fewer years at the company are more likely to leave.
+### **1. Data Preparation**
+- Cleaned and validated employee records  
+- Handled missing values and inconsistent entries  
+- Engineered tenure, compensation groups, and satisfaction indicators  
 
-Specific departments/roles experience disproportionately higher attrition levels.
+### **2. Exploratory Data Analysis (Python)**
+- Summary statistics and distribution checks  
+- Correlation heatmaps and feature interactions  
+- Attrition rate calculations by role and department  
+- Workforce segmentation exploration  
 
-🔹 Workforce Patterns
+### **3. Predictive Modeling**
+- Trained and evaluated classification models (Logistic Regression, Tree-based)  
+- Measured accuracy, precision, recall, confusion matrix  
+- Identified feature importance to understand influencing factors  
 
-Mid-career employees exhibit higher turnover risk than early-tenure employees.
+### **4. Visualization & Storytelling (Tableau)**
+- Created interactive dashboard for business stakeholders  
+- Designed filters for dept, salary, satisfaction, tenure  
+- Translated technical findings into strategic insights  
 
-Attrition tends to cluster around certain job roles with high workload-to-reward imbalance.
+---
 
-Satisfaction and performance metrics show predictive value in estimating risk.
+## 📓 Notebooks & Dashboards  
 
-🔹 Predictive Modeling
+### 📘 Python Notebook  
+End-to-end analysis including EDA and predictive modeling:  
+➡️ https://nbviewer.org/github/krodsa/Employee-Analysis/blob/main/Employee%20Attrition%20Analysis.ipynb  
 
-A classification model was trained to estimate the likelihood of attrition based on employee attributes.
-The model helps highlight high-risk segments where targeted retention strategies may be most effective.
+### 📊 Tableau Dashboard  
+Interactive visuals for workforce insights:  
+➡️ https://public.tableau.com/app/profile/krodsa/viz/EmployeeAttritionDashboard_17344953568520/AttritionDashboard  
 
-🔹 Recommended Actions
+### 📁 GitHub Repository  
+➡️ https://github.com/krodsa/Employee-Attrition-Analysis  
 
-Prioritize interventions for roles with historically high turnover.
+---
 
-Implement compensation and career-development adjustments for lower-pay bands.
+## 📂 Dataset  
+The dataset includes anonymized employee records with fields such as:
 
-Use predictive modeling to support early identification of at-risk employees.
+- Demographics  
+- Tenure  
+- Job role and department  
+- Compensation  
+- Satisfaction metrics  
+- Performance indicators  
+- Attrition label  
 
-Enhance job satisfaction drivers (manager support, career pathways, recognition).
+---
 
-## 🛠️ Methodology
-1. Data Preparation
+## ⚠️ Limitations  
+- Dataset may not capture all complexities of real HRIS data.  
+- Self-reported satisfaction metrics introduce subjective bias.  
+- Insights should be interpreted directionally.  
 
-Cleaned and validated employee records
+---
 
-Handled missing values and inconsistent entries
+## 🚀 Future Enhancements  
+- Survival analysis for time-to-attrition modeling  
+- Add promotion/compensation history  
+- Deploy predictive model through a simple web app  
+- Departmental benchmarking and deeper segmentation  
 
-Engineered metrics for tenure, compensation grouping, and satisfaction patterns
+---
 
-2. Exploratory Data Analysis (Python)
-
-Summary statistics & distribution analysis
-
-Correlation heatmaps to understand feature relationships
-
-Department and role-level attrition rate calculation
-
-Identified workforce segmentation patterns
-
-3. Predictive Modeling
-
-Built and evaluated classification models (e.g., logistic regression, tree-based models)
-
-Assessed accuracy, precision, recall, and confusion matrix
-
-Analyzed feature importance to understand driver influence
-
-4. Visualization & Storytelling (Tableau)
-
-Designed an interactive attrition dashboard for business stakeholders
-
-Created filters for department, salary, job satisfaction, tenure, and more
-
-Translated modeling insights into accessible visual narratives
-
-This multi-layered approach demonstrates the full analytics workflow expected from modern data analysts.
-
-## 📓 Notebooks & Dashboards
-📘 Python Analysis (Full Notebook)
-
-This notebook contains data cleaning, EDA, modeling, and insight generation:
-➡️ https://nbviewer.org/github/krodsa/Employee-Analysis/blob/main/Employee%20Attrition%20Analysis.ipynb
-
-📊 Tableau Dashboard (Interactive Visualization)
-
-A business-facing dashboard summarizing KPIs, patterns, and drivers of attrition:
-➡️ https://public.tableau.com/app/profile/krodsa/viz/EmployeeAttritionDashboard_17344953568520/AttritionDashboard
-
-📁 Project Repository (Code + Documentation)
-
-➡️ https://github.com/krodsa/Employee-Attrition-Analysis
-
-## 📂 Dataset
-
-The dataset includes anonymized employee records with variables such as:
-
-Demographics (age, gender, marital status)
-
-Tenure and employment history
-
-Job role and department
-
-Compensation and work-life measures
-
-Job satisfaction & environment indicators
-
-Attrition label (yes/no)
-
-This structure ensures realistic workforce insights and supports predictive modeling.
-
-## ⚠️ Limitations
-
-To maintain data integrity and transparency:
-
-Dataset represents anonymized employee information and may not reflect all complexities of live HRIS data.
-
-Self-reported satisfaction metrics can introduce subjective noise.
-
-Findings should be interpreted directionally rather than as prescriptive HR policy.
-
-Nonetheless, the patterns observed closely align with known HR analytics research.
-
-## 🚀 Future Enhancements
-
-Potential next steps:
-
-Build a survival analysis model to estimate time-to-attrition.
-
-Integrate compensation growth, promotion history, and performance review text.
-
-Deploy the predictive model via a lightweight API or web app.
-
-Add departmental benchmarking or industry comparison metrics.
-
-## 📬 Contact
-
-If you’re interested in discussing workforce analytics, predictive modeling, or organizational insights, feel free to connect.
+## 📬 Contact  
+Feel free to connect for discussions on workforce analytics, modeling, or data storytelling.
