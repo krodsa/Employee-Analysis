@@ -2,15 +2,17 @@
 
 Links
 
-If GitHub fails to render the notebook, you can view the fully-rendered version here:  
+If GitHub does not render the notebook properly, you can view the fully-rendered version here:  
 https://nbviewer.org/github/krodsa/Employee-Analysis/blob/main/Employee%20Attrition%20Analysis.ipynb
 
-Tableau dashboard can be viewed here: 
+Interactive Tableau dashboard available here: 
 https://public.tableau.com/app/profile/krodsa/viz/EmployeeAttritionDashboard_17344953568520/AttritionDashboard
 
-Overview
+Background
+Employee turnover poses a significant challenge for organizations, impacting productivity, team morale, and long-term financial performance. This project analyzes an anonymized employee dataset containing key workforce attributes, allowing for the exploration of attrition patterns and the development of data-driven insights that can support strategic HR decision-making.
 
-This project analyzes employee attrition trends using a dataset containing various employee attributes, including demographic details, employment history, and job satisfaction metrics. The analysis aims to identify key drivers of attrition and forecast future attrition trends for strategic workforce planning.
+Overview
+This project investigates employee attrition by analyzing a range of workforce variables—including demographic characteristics, employment history, compensation details, job satisfaction, and performance indicators. The analysis aims to uncover key drivers of attrition, identify meaningful patterns within the workforce, and explore predictive techniques that can help forecast turnover risk. These insights can support proactive workforce planning and inform targeted retention strategies.
 
 Objectives
 
@@ -43,7 +45,7 @@ Key findings:
 - Built a Random Forest Classifier to predict employee attrition (LeaveOrNot):
 - Achieved high accuracy, with detailed evaluation metrics provided.
 - Generated feature importance scores:
-  - JoiningYear was the most significant feature, followed by Age and ExperienceInCurrentDomain.
+- JoiningYear was the most significant feature, followed by Age and ExperienceInCurrentDomain.
 
 4. Trend Forecasting: Linear Regression
 
