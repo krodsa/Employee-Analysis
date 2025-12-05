@@ -9,6 +9,23 @@ An end-to-end workforce analytics project combining Python-based statistical ana
 
 ---
 
+## 📚 Table of Contents
+- [Background](#-background)
+- [Project Overview](#-project-overview)
+- [Executive Summary](#-executive-summary)
+- [Methodology](#-methodology)
+  - [Data Preparation](#1-data-preparation)
+  - [Exploratory Data Analysis (Python)](#2-exploratory-data-analysis-python)
+  - [Predictive Modeling](#3-predictive-modeling)
+  - [Visualization & Storytelling (Tableau)](#4-visualization--storytelling-tableau)
+- [Notebooks & Dashboards](#-notebooks--dashboards)
+- [Dataset](#-dataset)
+- [Limitations](#-limitations)
+- [Future Enhancements](#-future-enhancements)
+- [Contact](#-contact)
+
+---
+
 ## 📌 Background  
 Employee turnover poses a significant challenge for organizations, impacting productivity, team morale, and long-term financial performance. This project analyzes an anonymized employee dataset containing key workforce attributes, enabling the exploration of attrition patterns and the development of data-driven insights to support proactive workforce planning.
 
