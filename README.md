@@ -9,9 +9,11 @@ Interactive Tableau dashboard available here:
 https://public.tableau.com/app/profile/krodsa/viz/EmployeeAttritionDashboard_17344953568520/AttritionDashboard
 
 Background
+
 Employee turnover poses a significant challenge for organizations, impacting productivity, team morale, and long-term financial performance. This project analyzes an anonymized employee dataset containing key workforce attributes, allowing for the exploration of attrition patterns and the development of data-driven insights that can support strategic HR decision-making.
 
 Overview
+
 This project investigates employee attrition by analyzing a range of workforce variables—including demographic characteristics, employment history, compensation details, job satisfaction, and performance indicators. The analysis aims to uncover key drivers of attrition, identify meaningful patterns within the workforce, and explore predictive techniques that can help forecast turnover risk. These insights can support proactive workforce planning and inform targeted retention strategies.
 
 Objectives
