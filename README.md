@@ -1,4 +1,4 @@
-# 📊 Employee Attrition Analysis
+## 📊 Employee Attrition Analysis
 
 An end-to-end workforce analytics project combining Python-based statistical analysis, predictive modeling, and an interactive Tableau dashboard to uncover drivers of employee turnover and support strategic HR decision-making.
 
